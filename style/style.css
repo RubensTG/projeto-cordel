@@ -1,0 +1,91 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.678);
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+header>h1 {
+    font-family: 'Passion One', cursive;
+    font-size: 10vw;
+    font-variant: small-caps;
+}
+
+header>p>a {
+    text-decoration: none;
+    color: white;
+}
+
+header>p>a:hover {
+    text-decoration: underline;
+}
+
+section .poesia-fundo-cor {
+    background-color: white;
+    padding: 80px 0px 180px 30px;
+}
+
+section .poesia-fundo-imagem {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    padding: 70px 30px;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px black;
+}
+
+section #imagem-um {
+    background-image: url('../imagens/background001.jpg');
+}
+
+section #imagem-dois {
+    background-image: url('../imagens/background002.jpg');
+}
+
+section .poesia-fundo-interno {
+    background-color: rgba(0, 0, 0, 0.445);
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+
+section p {
+    font-size: 3.5vw;
+    font-family: 'Sriracha', cursive;
+    line-height: 2em;
+}
+
+.margin-bottom-m {
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer>a {
+    text-decoration: none;
+    color: white;
+}
+
+footer>a:hover {
+    text-decoration: underline;
+}
